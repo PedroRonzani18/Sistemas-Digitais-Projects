@@ -1,0 +1,23 @@
+/*
+Nomes: Pedro Augusto, Tulio Horta
+Data: 17/11/22
+Projeto: contador de década
+*/
+
+module contador (clock, reset, preset, Q);
+
+input clock, preset, reset;
+output reg [3:0] Q;
+
+always @ (posedge clock or posedge reset) // pos = subida
+begin
+	if (reset == 1'b1)
+	begin
+		Q = 4'b0000;
+	end
+	else 
+		Q = Q + 1;
+	begin
+end
+
+endmodule

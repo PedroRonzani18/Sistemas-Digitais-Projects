@@ -1,0 +1,51 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contadorDecada_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/contadorDecada.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contadorDecada
+# 
+# Top level modules:
+# 	contadorDecada
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/decodBCD.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decodBCD
+# 
+# Top level modules:
+# 	decodBCD
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/divisor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module divisor
+# 
+# Top level modules:
+# 	divisor
+# 
+vsim work.contadorDecada
+# vsim work.contadorDecada 
+# Loading work.contadorDecada
+# Loading work.divisor
+# Loading work.decodBCD
+wave create -pattern clock -initialvalue StX -period 20ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/contadorDecada/novo_clock
+add wave -position insertpoint  \
+sim:/contadorDecada/novo_clock
+add wave -position insertpoint  \
+sim:/contadorDecada/preset
+add wave -position insertpoint  \
+sim:/contadorDecada/reset
+add wave -position insertpoint  \
+sim:/contadorDecada/Q
+run
+# Break key hit 
+wave create -pattern clock -initialvalue St0 -period 20ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/contadorDecada/novo_clock
+add wave -position insertpoint  \
+sim:/contadorDecada/Q
+run

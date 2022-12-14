@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula1_farol/sinalizador.v
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula1_farol/db/sinalizador.cbx.xml
+design_name = sinalizador
+instance = comp, \C~I , C, sinalizador, 1
+instance = comp, \F~I , F, sinalizador, 1
+instance = comp, \S~0 , S~0, sinalizador, 1
+instance = comp, \P~I , P, sinalizador, 1
+instance = comp, \S~I , S, sinalizador, 1

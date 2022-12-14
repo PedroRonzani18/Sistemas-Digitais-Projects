@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula10_contadorDecada\simulation\modelsim
+vcontadorDecada
+IWK46lO::7liH]G`gGZ7Q[1
+VMZX_YGm>9k:@aGCjo@:9a0
+Z1 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula10_contadorDecada\simulation\modelsim
+w1669051934
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/contadorDecada.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/contadorDecada.v
+L0 7
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+ncontador@decada
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada -O0
+!i10b 1
+!s100 FY34L651ja^ZUid3:PF^B2
+!s85 0
+!s108 1669855318.667000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/contadorDecada.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/contadorDecada.v|
+!s101 -O0
+vdecodBCD
+I9OJiOo74leF^V7;3mlJ:90
+VW^<Sz6lN[?FMH?mG6ezzN3
+R1
+w1668786320
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/decodBCD.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/decodBCD.v
+L0 7
+R2
+r1
+31
+R3
+R4
+ndecod@b@c@d
+!i10b 1
+!s100 aYUoCSgEG6iA9ej6_efEf3
+!s85 0
+!s108 1669855318.745000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/decodBCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/decodBCD.v|
+!s101 -O0
+vdivisor
+!i10b 1
+!s100 Mm6P=ij=;OVVLR=kT3IFS0
+I_QYJkmgFOj7PcbQ<F9d@z2
+VD=`4lm4MM@CeAg5XU33OM0
+R1
+w1669051345
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/divisor.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/divisor.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1669855318.808000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/divisor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula10_contadorDecada/divisor.v|
+!s101 -O0
+R3
+R4

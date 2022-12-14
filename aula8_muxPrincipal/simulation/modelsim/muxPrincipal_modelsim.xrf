@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/muxPrincipal.v
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/testbench_mux_2_canais.v
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/db/muxPrincipal.cbx.xml
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/mux_2canais.v
+design_name = muxPrincipal
+instance = comp, \Sel[0]~I , Sel[0], muxPrincipal, 1
+instance = comp, \I[3]~I , I[3], muxPrincipal, 1
+instance = comp, \I[1]~I , I[1], muxPrincipal, 1
+instance = comp, \I[0]~I , I[0], muxPrincipal, 1
+instance = comp, \Sel[1]~I , Sel[1], muxPrincipal, 1
+instance = comp, \comb_5|saida~0 , comb_5|saida~0, muxPrincipal, 1
+instance = comp, \I[2]~I , I[2], muxPrincipal, 1
+instance = comp, \comb_5|saida~1 , comb_5|saida~1, muxPrincipal, 1
+instance = comp, \O~I , O, muxPrincipal, 1

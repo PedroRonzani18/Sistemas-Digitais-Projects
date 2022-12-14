@@ -1,0 +1,8 @@
+|mux_2canais
+X => saida.IN0
+Y => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

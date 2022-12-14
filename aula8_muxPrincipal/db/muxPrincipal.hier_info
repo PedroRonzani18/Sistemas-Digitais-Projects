@@ -1,0 +1,34 @@
+|muxPrincipal
+I[3] => I[3].IN1
+I[2] => I[2].IN1
+I[1] => I[1].IN1
+I[0] => I[0].IN1
+Sel[1] => Sel[1].IN1
+Sel[0] => Sel[0].IN2
+O <= mux_2canais:comb_5.port3
+
+
+|muxPrincipal|mux_2canais:comb_3
+X => saida.IN0
+Y => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxPrincipal|mux_2canais:comb_4
+X => saida.IN0
+Y => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxPrincipal|mux_2canais:comb_5
+X => saida.IN0
+Y => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

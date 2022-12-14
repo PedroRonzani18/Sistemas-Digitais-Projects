@@ -1,0 +1,14 @@
+|comparador
+ig <= ig.DB_MAX_OUTPUT_PORT_TYPE
+me <= me.DB_MAX_OUTPUT_PORT_TYPE
+ma <= ma.DB_MAX_OUTPUT_PORT_TYPE
+a => ma.IN0
+a => ig.IN0
+a => ig.IN0
+a => me.IN0
+b => me.IN1
+b => ig.IN1
+b => ig.IN1
+b => ma.IN1
+
+

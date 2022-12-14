@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula8_muxPrincipal\simulation\modelsim
+vmux_2canais
+I61^@B7dN:_JloP]Edl4`93
+VGif2TzNgI7H?JYG=`RaVZ2
+Z1 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula8_muxPrincipal\simulation\modelsim
+w1663877029
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/mux_2canais.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/mux_2canais.v
+L0 7
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal -O0
+!i10b 1
+!s100 lXV?6A@aMifS?eXLU6koM3
+!s85 0
+!s108 1667507263.248000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/mux_2canais.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/mux_2canais.v|
+!s101 -O0
+vmuxPrincipal
+Ie9X;lOJ@_BeQB^o]hQ5?G3
+VZaMSnT_1FE9^ia7oB<@6<1
+R1
+w1667503575
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/muxPrincipal.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/muxPrincipal.v
+L0 7
+R2
+r1
+31
+R3
+nmux@principal
+R4
+!i10b 1
+!s100 0`?BE9ecS3znaJf]?a<X=0
+!s85 0
+!s108 1667507263.217000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/muxPrincipal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/muxPrincipal.v|
+!s101 -O0
+vtestbench_mux_2_canais
+!i10b 1
+!s100 <<WzF6K`UWA4oOQbOHHWY3
+IOaG[M6zF^mE3LUP2S`=If3
+VgLk^b[E57U1ea<m<MLWAL1
+R1
+w1667507229
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/testbench_mux_2_canais.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/testbench_mux_2_canais.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1667507263.311000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/testbench_mux_2_canais.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula8_muxPrincipal/testbench_mux_2_canais.v|
+!s101 -O0
+R3
+R4

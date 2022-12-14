@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula9_registrador\simulation\modelsim
+vregistrador
+IbaO8CS>z5cYUP70fL90680
+VE>0;O`00S1a;loS4n<<nZ2
+Z1 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula9_registrador\simulation\modelsim
+w1668101981
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/registrador.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/registrador.v
+L0 7
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 O07_N;ONYWLY[eQ37Qmko0
+!s85 0
+!s108 1668102008.986000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/registrador.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador -O0
+vTB_regis
+!i10b 1
+!s100 7PD_U<c_OUUR=A4K3fL:70
+IVCTgQQ6Hf?BA7hoP@6KBF3
+VzA7OWnJ^NiAdWY<M7L1HL0
+R1
+w1668101630
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/TB_regis.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/TB_regis.v
+L0 13
+R2
+r1
+!s85 0
+31
+!s108 1668102009.033000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/TB_regis.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula9_registrador/TB_regis.v|
+!s101 -O0
+R3
+R4
+n@t@b_regis

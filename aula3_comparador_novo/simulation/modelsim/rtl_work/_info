@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula3_comparador_novo\simulation\modelsim
+vcomparador
+!i10b 1
+!s100 b[MZ`Vh?@HKbXWePJn2Q`1
+IFdG<NJfMG8i:Fz=7>djc70
+VJ2RE`lYlJ>6bkUN5LFX?z0
+Z1 dC:\Users\pedro\OneDrive\Documentos\SD_projetos\aula3_comparador_novo\simulation\modelsim
+w1663607479
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador.v
+L0 5
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1663607976.856000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo -O0
+vcomparador_novo
+I2h[U2`[7DCz4Uza802[O90
+VBl8E`Ifzh^d08LjBGKSYa0
+R1
+w1663607837
+8C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v
+FC:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v
+L0 7
+R2
+r1
+31
+R3
+!i10b 1
+!s100 8_zE3_DdJ[d4cSZ1jAaU=3
+!s85 0
+!s108 1663607976.777000
+!s107 C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo|C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v|
+!s101 -O0
+R4

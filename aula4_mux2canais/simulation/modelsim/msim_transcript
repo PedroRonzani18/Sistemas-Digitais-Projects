@@ -1,0 +1,30 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_2canais_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais/mux_2canais.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_2canais
+# 
+# Top level modules:
+# 	mux_2canais
+# 
+vsim -voptargs=+acc work.mux_2canais
+# vsim -voptargs=+acc work.mux_2canais 
+# Loading work.mux_2canais
+wave create -driver freeze -pattern clock -initialvalue 0 -period 500ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_2canais/sel
+wave create -driver freeze -pattern clock -initialvalue 0 -period 5ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_2canais/X
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_2canais/Y
+add wave -position insertpoint  \
+sim:/mux_2canais/saida
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais/simulation/modelsim/wave.do -append

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais/mux_2canais.v
+source_file = 1, C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula4_mux2canais/db/mux_2canais.cbx.xml
+design_name = mux_2canais
+instance = comp, \sel~I , sel, mux_2canais, 1
+instance = comp, \Y~I , Y, mux_2canais, 1
+instance = comp, \X~I , X, mux_2canais, 1
+instance = comp, \saida~0 , saida~0, mux_2canais, 1
+instance = comp, \saida~I , saida, mux_2canais, 1

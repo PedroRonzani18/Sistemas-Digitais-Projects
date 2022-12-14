@@ -1,0 +1,12 @@
+//aula comparador
+//Pedro
+
+module comparador(ig,men,mai,a,b);
+
+input a,b;
+output ig,men,mai;
+assign M = a>b;
+assign m = a<b;
+assign i = a=b;
+
+endmodule

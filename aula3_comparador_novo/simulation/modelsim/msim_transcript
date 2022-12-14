@@ -1,0 +1,41 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comparador_novo_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador_novo
+# 
+# Top level modules:
+# 	comparador_novo
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo {C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador
+# 
+# Top level modules:
+# 	comparador
+# 
+vsim +altera -do comparador_novo_run_msim_rtl_verilog.do -l msim_transcript -gui work.comparador_novo
+# vsim +altera -do comparador_novo_run_msim_rtl_verilog.do -l msim_transcript -gui work.comparador_novo 
+# Loading work.comparador_novo
+# ** Error: (vsim-3037) C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v(15): Missing instance name in instantiation of 'comparador'.
+# 
+#         Region: /comparador_novo
+# ** Error: (vsim-3037) C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v(16): Missing instance name in instantiation of 'comparador'.
+# 
+#         Region: /comparador_novo
+# ** Error: (vsim-3037) C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v(17): Missing instance name in instantiation of 'comparador'.
+# 
+#         Region: /comparador_novo
+# ** Error: (vsim-3037) C:/Users/pedro/OneDrive/Documentos/SD_projetos/aula3_comparador_novo/comparador_novo.v(18): Missing instance name in instantiation of 'comparador'.
+# 
+#         Region: /comparador_novo
+# Error loading design
